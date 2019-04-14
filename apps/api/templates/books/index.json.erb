@@ -1,0 +1,5 @@
+<%=
+{
+  books: books.collect { |book| { title: book.title, author: book.author } }
+}.to_json
+%>
